@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Світлий фон */
+        }
+        .navbar {
+            background-color: #e9ecef; /* Світло-сірий фон */
+        }
+        .header-section {
+            background-color: #e9ecef; /* Світло-сірий фон */
+            padding: 20px 0;
+            text-align: center;
+        }
+        .contact-info {
+            background-color: #f1f1f1; /* Світло-сірий блок для контактної інформації */
+            padding: 30px;
+            border-radius: 8px;
+            height: 400px; /* Висота блоку */
+        }
+        .form-container {
+            background-color: #ffffff; /* Білий фон для форми */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #343a40; /* Темно-сірий фон */
+            color: white; /* Білий текст */
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navbar .nav-link {
+            flex: 1; /* Зробити кнопки однаковими за розміром */
+            text-align: center;
+        }
+        .container {
+            max-width: 1980px; /* Ширина контейнера */
+        }
+    </style>
+</head>
+<body>
+    <!-- Навігаційний блок -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Homepage</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav w-100">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="mypage.html">My Page</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Заголовок -->
+    <div class="header-section">
+        <h1>Contact Us</h1>
+        <p>It’s very easy to create stylish and beautiful prototypes for your future projects</p>
+    </div>
+
+    <!-- Основний контент -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 contact-info">
+                <h2>Contact</h2>
+                <p>It's very easy to create stylish and beautiful prototypes for your future projects</p>
+                <h3>Phones</h3>
+                <p>+1 (234) 567-89-90</p>
+                <p>+1 (234) 567-89-90</p>
+                <p>info@collector.com</p>
+            </div>
+            <div class="col-md-6">
+                <div class="form-container">
+                    <h3>Write us</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>Contact</p>
+        <p>+0970834770 | info@collector.com</p>
+        <div class="social-icons">
+            <a href="#" class="text-light mr-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light mr-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
